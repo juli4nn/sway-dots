@@ -1,0 +1,105 @@
+/* Write your css here :D */
+.nw2W4ZMdICuBo08Tzxg9 { justify-content: center; height: 100%; width: 100%; } .main-nowPlayingView-section:not(.main-now
+-queue) {display: none !important}
+
+.main-nowPlayingBar-connect-message-nudgeButton{ display: none !important }
+
+/* hide the connect button */
+button[aria-label="Connect to a device"],
+button[aria-label="Connect"] {
+    display: none !important;
+}
+
+/* hide share link button */
+  button[aria-label="Copy link to Song"] {
+    display: none !important;
+  }
+
+/* hide the genre/filter bar */
+  [role="listbox"] {
+      display: none !important;
+  }
+
+/* top background part thingyu */
+  .main-topBar-background {
+      --background-base: #0f0f0f !important; 
+  }
+  .main-topBar-overlay {
+      background: none !important;
+  }
+
+
+/* center sidebar items */
+  .main-nowPlayingView-nowPlayingWidget {
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+  }
+
+/* remove pfp in playlists */
+  .main-entityHeader-container .main-avatar-avatar {
+      display: none !important;
+  }
+
+/* center text in sidebar */
+  .iHa_q9pq4un3VNRQgwTx > .xjf0Pj3YnoegOkJUpaPS {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+  }
+  
+/* remove rounded corners */
+  
+  /* sidebar */
+  .Root__right-sidebar,
+  .Root__right-sidebar * {
+      border-radius: 0 !important;
+  }
+
+  /* bottom album art */
+  button[data-testid="cover-art-button"],
+  button[data-testid="cover-art-button"] * {
+      border-radius: 0 !important;
+  }
+  
+  /* left button */
+  .hd_Z8Pb4JtAMxw2K8S9G {
+      position: absolute !important;
+      left: 8px;
+  }
+
+  /* right controls */
+  .liw6Y_iPu2DJRwk10x9d {
+      position: absolute !important;
+      right: 8px;
+  }
+
+  /* center middle bar */
+  .BS6ifqK01BxEFWq4tjgG {
+      position: absolute !important;
+      left: 50% !important;
+      transform: translateX(-15%) !important;
+  }
+
+  .BS6ifqK01BxEFWq4tjgG {
+      justify-self: center !important;
+      position: static !important;
+      transform: none !important;
+  }
+  
+  .main-nowPlayingView-nowPlayingGrid > div:has([data-testid="lyrics-container"]) {
+      display: none !important;
+  }
+  
+/* make top buttons transparent */
+  .main-globalNav-searchInputContainer,
+  .main-topBar-searchBar {
+    background-color: transparent !important;
+  }
+  
+  .Button-sc-1dqy6lx-0 {
+    background-color: transparent !important;
+  }
+
+:root {
+    --spice-tab-active: transparent !important;
+}
