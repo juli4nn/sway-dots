@@ -1,2 +1,45 @@
-# sway-dots
-my sway dotfiles on arch
+
+<img width="2560" height="1440" alt="1" src="https://github.com/user-attachments/assets/dfc8afa4-dace-43bd-b597-2d281edc72ab" />
+<img width="2560" height="1440" alt="2" src="https://github.com/user-attachments/assets/4c79e223-d079-4d22-9a90-408bf5899424" />
+<img width="2560" height="1440" alt="3" src="https://github.com/user-attachments/assets/6fdbef90-e4b5-4a04-aa68-9665c1e0eed2" />
+
+## applications
+bar: waybar
+
+launcher: rofi
+
+notifications: mako
+
+locker: gtklock
+
+gtk theme: custom Redmond97 SE dark theme
+
+cursor: [plan9](https://github.com/wintermute-cell/xcursor-plan9)
+
+wallpaper setter: waypaper & swaybg
+
+term: kitty
+
+shell: fish
+
+fonts: go mono, [Px437 DOS/V re. JPN30](https://int10h.org/oldschool-pc-fonts/download/)
+
+fetch: fastfetch & [custom gfetch](https://github.com/juli4nn/sway-dots/blob/main/fetch.sh) 
+
+music player: spotify w/ spicetify, strawberry
+
+## custom spicetify theme
+<img width="1470" height="1062" alt="spicetify-example" src="https://github.com/user-attachments/assets/46692a5c-e754-4a77-bff7-f6db6338001d" />
+
+*how to install:*
+
+marketplace > back up and restore > paste settings > import
+
+*then for custom css:* 
+
+press f12 > copy and paste
+
+*installation quirks* 
+
+only way to use the sidebar is by using the "compact list" underneath the "sort by" tab. 
+
