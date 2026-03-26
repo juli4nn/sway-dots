@@ -1,0 +1,107 @@
+* {
+  accent: #3A3A3A;
+  bg: #1A1A1A;
+  fg: #E0E0E0;
+  background-color: @bg;
+  text-color: @fg;
+  font: "Px437 DOS/V re. JPN30";
+}
+
+element-text,
+element-icon,
+mode-switcher {
+  background-color: inherit;
+  text-color: inherit;
+}
+
+window {
+  width: 550px;
+  height: 400px;
+  transparency: "real";
+  border: 2px;
+  border-color: @fg;
+}
+
+textbox-prompt-colon {
+  padding: 8px 6px;
+  border: 0 0 2px 0;
+  border-color: @fg;
+  str: ">";
+  expand: false;
+}
+
+entry {
+  placeholder: "find";
+  placeholder-color: #888888;
+  text-color: @fg;
+  border: 0 0 2px 0;
+  border-color: @fg;
+  padding: 8px 2px;
+  expand: true;
+}
+
+inputbar {
+  children: [textbox-prompt-colon,entry];
+  expand: false;
+  spacing: 0;
+  margin: 20px;
+}
+
+listview {
+  background-color: @bg;
+  columns: 1;
+  lines: 9;
+  spacing: 0;
+  cycle: false;
+  dynamic: true;
+  layout: vertical;
+  margin: 0 20px;
+  scrollbar: false;
+}
+
+mainbox {
+  children: [inputbar,listview];
+  padding: 20px 6px;
+}
+
+element {
+  orientation: horizontal;
+  padding: 12px 24px;
+  
+  background-color: #1A1A1A;
+}
+
+element-text {
+  expand: true;
+  margin: 0 10px;
+  
+  background-color: inherit;
+  text-color: inherit;
+}
+
+element selected {
+  background-color: #3A3A3A;
+  
+  text-color: #FFFFFF;
+}
+
+mode-switcher {
+  background-color: @bg;
+  spacing: 0;
+  border-color: #3A3A3A;
+  margin: 20px;
+}
+
+button {
+  padding: 15px;
+  margin: 0;
+  
+  text-color: @fg;
+  background-color: @accent;
+}
+
+button selected {
+  padding: 8px;
+  text-color: @bg;
+  background-color: @fg;
+}
