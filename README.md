@@ -33,11 +33,11 @@ music player: spotify w/ spicetify, strawberry
 
 *how to install:*
 
-marketplace > back up and restore > paste settings > import
+marketplace > back up and restore > paste [settings](https://github.com/juli4nn/sway-dots/blob/main/spicetify/settings) > import
 
 *then for custom css:* 
 
-press f12 > copy and paste
+press f12 > copy and paste the [css](https://github.com/juli4nn/sway-dots/blob/main/spicetify/css)
 
 *installation quirks* 
 
