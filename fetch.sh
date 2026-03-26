@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # --- cpu ---
-cpuname=$(lscpu | grep "Model name" | cut -d: -f2- | sed 's/^ *//' | sed 's/ CPU @.*//' | sed 's/ with.*//')
+cpuname=$(lscpu | awk -F: '/Model name/ {gsub(/^ +/, "", $2); print $2}')
 
 # --- system info ---
 user_host="$(whoami)@$(uname -n)"
