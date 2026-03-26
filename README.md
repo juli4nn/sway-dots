@@ -1,6 +1,6 @@
 
 <img width="2560" height="1440" alt="1" src="https://github.com/user-attachments/assets/dfc8afa4-dace-43bd-b597-2d281edc72ab" />
-<img width="2560" height="1440" alt="2" src="https://github.com/user-attachments/assets/4c79e223-d079-4d22-9a90-408bf5899424" />
+<img width="2560" height="1440" alt="2026-03-25-173704_sway-screenshot" src="https://github.com/user-attachments/assets/901bb06e-7e36-43c6-853d-c5de134a431a" />
 <img width="2560" height="1440" alt="3" src="https://github.com/user-attachments/assets/6fdbef90-e4b5-4a04-aa68-9665c1e0eed2" />
 
 ## applications
